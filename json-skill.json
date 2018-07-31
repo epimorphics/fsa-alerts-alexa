@@ -1,0 +1,73 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "fsa alerts",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AlergicTo",
+                    "slots": [
+                        {
+                            "name": "Allergen",
+                            "type": "Allergen"
+                        }
+                    ],
+                    "samples": [
+                        "{Allergen}",
+                        "I am sensitive to {Allergen}",
+                        "i am alergic to {Allergen}"
+                    ]
+                },
+                {
+                    "name": "AlertsAvailable",
+                    "slots": [
+                        {
+                            "name": "Allergen",
+                            "type": "Allergen"
+                        }
+                    ],
+                    "samples": [
+                        "are there any alerts for me"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Allergen",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "walnut"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nuts"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "egg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
