@@ -20,6 +20,6 @@ Next click on `Add a new Skill`:
 
 ![Add Skill](https://cloud.githubusercontent.com/assets/223045/21183286/84051262-c207-11e6-8422-945b6b45e83b.png)
 
-At the bottom select json editor and paste the value of json-skill.json
+At the bottom select json editor and paste the value of skill.json
 
 add the arn value of the lambda to endpoints and hit test to try it out
