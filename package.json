@@ -1,0 +1,11 @@
+{
+  "name": "aws-alexa-skill",
+  "version": "1.0.0",
+  "description": "This example demonstrates how to use an AWS Lambdas for your custom Alexa skill.",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "superagent": "^3.8.3"
+  }
+}
